@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class UserController extends Controller
 {
@@ -13,7 +14,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
+        echo "Test Index";
     }
 
     /**
@@ -24,7 +25,7 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        echo "Test Store";
     }
 
     /**
@@ -35,7 +36,7 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        //
+        echo "Test Show";
     }
 
     /**
@@ -47,7 +48,7 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        echo "Test Update";
     }
 
     /**
@@ -58,6 +59,6 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        //
+        echo "Test Destroy"; 
     }
 }
