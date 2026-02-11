@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -68,3 +69,24 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 =======
 # -IT322-Laravel-Project
 >>>>>>> b9901e30dfe1a10c4cd69c0a89054eb981853b4b
+=======
+# IT322 Laravel Project
+
+Laravel project for Integrative Programming and Emerging Technologies class.
+
+## Setup Instructions
+
+1. Clone the repository
+2. Install dependencies: `composer install`
+3. Copy `.env.example` to `.env`
+4. Generate key: `php artisan key:generate`
+5. Configure database in `.env`
+6. Run migrations: `php artisan migrate`
+7. Start server: `php artisan serve`
+
+## Thunder Client Setup
+
+Thunder Client extension is configured for API testing.
+
+Test endpoint: `GET http://127.0.0.1:8000/api/test`
+>>>>>>> 1197c91dbf15a19787af7c0cb046986d9fe6bf7f
